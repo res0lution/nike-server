@@ -1,13 +1,13 @@
 import js from '@eslint/js'
-import tseslint from 'typescript-eslint'
 import importPlugin from 'eslint-plugin-import'
-import unusedImports from 'eslint-plugin-unused-imports'
-import security from 'eslint-plugin-security'
-import sonarjs from 'eslint-plugin-sonarjs'
 import jest from 'eslint-plugin-jest'
 import promise from 'eslint-plugin-promise'
+import security from 'eslint-plugin-security'
+import sonarjs from 'eslint-plugin-sonarjs'
 import unicorn from 'eslint-plugin-unicorn'
+import unusedImports from 'eslint-plugin-unused-imports'
 import globals from 'globals'
+import tseslint from 'typescript-eslint'
 
 export default [
 
