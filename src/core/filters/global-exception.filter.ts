@@ -1,5 +1,5 @@
 import { DomainError } from '@core/errors/domain.error';
-import { AppLogger } from '@core/logging/logger.service';
+import { AppLogger } from '@core/logger/logger.service';
 import { ArgumentsHost, Catch, ExceptionFilter, HttpException, HttpStatus } from '@nestjs/common';
 import { Request, Response } from 'express';
 

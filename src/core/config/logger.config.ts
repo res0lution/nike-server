@@ -37,8 +37,11 @@ export function buildPinoConfig(configService: ConfigService<Env>): Params {
             target: 'pino-pretty',
             options: {
               colorize: true,
-              translateTime: true,
+              translateTime: 'HH:MM:ss.l',
               singleLine: true,
+              ignore: 'pid,hostname',
+              append: { env: 'dev' },
+              errorLikeObjectKeys: ['err', 'error'],
             },
           }
         : undefined,

@@ -1,4 +1,4 @@
-import { AppLogger } from '@core/logging/logger.service';
+import { AppLogger } from '@core/logger/logger.service';
 import { Injectable } from '@nestjs/common';
 import { Logger } from 'pino';
 

@@ -17,8 +17,7 @@
     "paths": {
       "@core/*": ["src/core/*"],
       "@infra/*": ["src/infra/*"],
-      "@modules/*": ["src/modules/*"],
-      "@shared/*": ["src/shared/*"]
+      "@modules/*": ["src/modules/*"]
     },
     "incremental": true,
     "skipLibCheck": true,
